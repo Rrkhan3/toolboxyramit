@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ToolBoxy — Free Online Tools for Everyday Tasks</title>
+<meta name="description" content="Free online tools for everyday work: calculators, word counter, JSON formatter, image compressor, QR codes, converters and more. Fast tools that run in your browser.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://toolboxy.xyz/">
+<meta property="og:title" content="ToolBoxy — Free Online Tools for Everyday Tasks">
+<meta property="og:description" content="Free online tools for everyday work: calculators, word counter, JSON formatter, image compressor, QR codes, converters and more. Fast tools that run in your browser.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://toolboxy.xyz/">
+<meta property="og:image" content="https://toolboxy.xyz/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ToolBoxy — Free Online Tools for Everyday Tasks">
+<meta property="og:site_name" content="ToolBoxy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ToolBoxy — Free Online Tools for Everyday Tasks">
+<meta name="twitter:description" content="Free online tools for everyday work: calculators, word counter, JSON formatter, image compressor, QR codes, converters and more. Fast tools that run in your browser.">
+<meta name="twitter:image" content="https://toolboxy.xyz/assets/og-image.png">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<script>try{var t=localStorage.getItem('toolboxy-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "ToolBoxy", "url": "https://toolboxy.xyz/", "description": "Free online tools for everyone."}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is ToolBoxy?", "acceptedAnswer": {"@type": "Answer", "text": "ToolBoxy is a free collection of online utilities: calculators, text tools, developer tools, image tools, unit converters, generators and PDF tools."}}, {"@type": "Question", "name": "Are ToolBoxy tools free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All tools can be used for free."}}, {"@type": "Question", "name": "Do I need to create an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no sign-up or login."}}, {"@type": "Question", "name": "Are my files uploaded?", "acceptedAnswer": {"@type": "Answer", "text": "No. ToolBoxy is a static website, and all tools, including the image tools, process your data locally in your browser."}}, {"@type": "Question", "name": "What types of tools are available?", "acceptedAnswer": {"@type": "Answer", "text": "Calculators, text tools, developer tools, image tools, converters, generators and PDF tools. New tools are added over time."}}]}</script>
+</head>
+<body data-root="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="container bar">
+<a class="logo" href="/" aria-label="ToolBoxy home"><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="8" fill="var(--primary)"/><path d="M8 13h16v10a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2z" fill="var(--on-primary)"/><path d="M12 13v-2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" fill="none" stroke="var(--on-primary)" stroke-width="2"/><rect x="14" y="17" width="4" height="3" rx="1" fill="var(--primary)"/></svg><span>ToolBoxy</span></a>
+<nav class="nav" id="site-nav" aria-label="Main navigation"><a href="/" aria-current="page">Home</a><a href="/tools">All Tools</a><a href="/categories">Categories</a><a href="/popular">Popular</a><a href="/about">About</a></nav>
+<div class="actions">
+<a class="icon-btn" href="/tools?focus=1" aria-label="Search tools"><span aria-hidden="true">🔍</span></a>
+<button class="icon-btn" id="theme-btn" type="button" aria-label="Toggle dark mode" aria-pressed="false"><span aria-hidden="true">🌓</span></button>
+<button class="icon-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span aria-hidden="true">☰</span></button>
+</div></div></header>
+<main id="main">
+<section class="hero"><div class="container">
+<h1>Everything You Need, All in One Toolbox.</h1>
+<p class="lead">Fast, free and easy-to-use online tools for everyday tasks.</p>
+<div class="search-box" role="search"><label for="hero-search" class="sr" style="position:absolute;left:-999px">Search for a tool</label>
+<input id="hero-search" type="search" placeholder="Search for a tool..." autocomplete="off" aria-controls="hero-results">
+<p id="hero-status" role="status" style="position:absolute;left:-999px"></p><ul class="results" id="hero-results" hidden></ul></div>
+<div class="chips" aria-label="Example searches"><span class="muted">Try:</span><button type="button" class="chip" data-q="age">age</button><button type="button" class="chip" data-q="image">image</button><button type="button" class="chip" data-q="json">json</button><button type="button" class="chip" data-q="percentage">percentage</button><button type="button" class="chip" data-q="word">word</button></div>
+<p class="lead" style="margin-top:1.5rem"><strong>Simple tools. Fast results. No unnecessary complexity.</strong></p></div></section>
+<section class="section"><div class="container prose" style="max-width:860px;margin-left:auto;margin-right:auto;text-align:left">
+<h2>Free Online Tools for Everyday Tasks</h2>
+<p>ToolBoxy is a collection of free online tools for common digital tasks: percentage and loan calculators, a word counter, case converters, JSON and Base64 utilities, image resize and compress, unit converters, QR and barcode generators, and PDF merge or split. Open a tool, enter your input, and get a result without creating an account.</p>
+<p>Supported tools are designed to process your text, numbers and files in the browser where the implementation allows. Explore <a href="/tools">all tools</a>, browse by <a href="/categories">category</a>, or start from <a href="/popular">popular tools</a> such as the <a href="/tools/word-counter">Word Counter</a>, <a href="/tools/json-formatter">JSON Formatter</a>, <a href="/tools/image-compressor">Image Compressor</a> and <a href="/tools/qr-generator">QR Generator</a>.</p>
+</div></section>
+<section class="section"><div class="container"><h2>Popular Tools</h2><p class="sub">Frequently used free tools to get you started.</p><div class="grid" data-tools data-popular="1"></div></div></section>
+<section class="section"><div class="container"><h2>Explore ToolBoxy Categories</h2><p class="sub"><span data-total>54</span> tools across calculators, text, images, developer utilities, converters, generators and PDF tools.</p><div class="grid" data-categories></div>
+<p style="margin-top:1rem" class="muted">Jump to <a href="/tools?category=Calculators">calculators</a>, <a href="/tools?category=Text%20Tools">text tools</a>, <a href="/tools?category=Image%20Tools">image tools</a>, <a href="/tools?category=Developer%20Tools">developer tools</a>, <a href="/tools?category=Converters">converters</a>, <a href="/tools?category=Generators">generators</a> or <a href="/tools?category=PDF%20Tools">PDF tools</a>.</p>
+</div></section>
+<section class="section"><div class="container"><h2>Why Use ToolBoxy?</h2><div class="grid"><div class="card"><div class="card-icon" aria-hidden="true">⚡</div><h3>Fast</h3><p>Open a page and get results without long setup or install steps.</p></div><div class="card"><div class="card-icon" aria-hidden="true">🆓</div><h3>Free</h3><p>Use the tools without creating an account or paying a subscription.</p></div><div class="card"><div class="card-icon" aria-hidden="true">🔒</div><h3>Browser-side where designed</h3><p>Many tools are built to process input in your browser rather than requiring you to upload files to ToolBoxy for the core task.</p></div><div class="card"><div class="card-icon" aria-hidden="true">✨</div><h3>Simple</h3><p>Clear forms and short instructions so you can finish the task and move on.</p></div></div></div></section>
+<section class="section"><div class="container"><h2>Tools for Different Use Cases</h2>
+<div class="grid">
+<div class="card"><h3>Students &amp; writers</h3><p>Count words, clean text, convert case and calculate percentages or averages for assignments.</p><p><a href="/tools/word-counter">Word Counter</a> · <a href="/tools/case-converter">Case Converter</a> · <a href="/tools/percentage-calculator">Percentage Calculator</a></p></div>
+<div class="card"><h3>Developers</h3><p>Format JSON, validate payloads, encode Base64 or URLs, and generate UUIDs while debugging.</p><p><a href="/tools/json-formatter">JSON Formatter</a> · <a href="/tools/json-validator">JSON Validator</a> · <a href="/tools/uuid-generator">UUID Generator</a></p></div>
+<div class="card"><h3>Designers &amp; marketers</h3><p>Compress or resize images, build UTM links and create QR codes for campaigns.</p><p><a href="/tools/image-compressor">Image Compressor</a> · <a href="/tools/utm-builder">UTM URL Builder</a> · <a href="/tools/qr-generator">QR Generator</a></p></div>
+<div class="card"><h3>Everyday &amp; business</h3><p>EMI and interest calculators, unit converters and PDF merge or split for documents.</p><p><a href="/tools/emi-calculator">EMI Calculator</a> · <a href="/tools/length-converter">Length Converter</a> · <a href="/tools/pdf-merger">PDF Merger</a></p></div>
+</div></div></section>
+<section class="section"><div class="container"><h2>More Tools</h2><div class="grid" data-tools data-skip-popular="1" data-limit="9"></div><p style="margin-top:1.5rem"><a class="btn" href="/tools">Browse all tools</a></p></div></section>
+<section class="section"><div class="container prose"><h2>Frequently Asked Questions</h2><details><summary>What is ToolBoxy?</summary><p>ToolBoxy is a free collection of online utilities: calculators, text tools, developer tools, image tools, unit converters, generators and PDF tools.</p></details><details><summary>Are ToolBoxy tools free?</summary><p>Yes. All listed tools can be used for free without creating an account.</p></details><details><summary>Do I need to create an account?</summary><p>No. There is no sign-up or login required to use the tools.</p></details><details><summary>Are my files uploaded to ToolBoxy?</summary><p>ToolBoxy is a static website. Supported tools such as image and PDF utilities are designed to process data in your browser for the core task. Always review each tool’s page for the specific behavior described there.</p></details><details><summary>What types of tools are available?</summary><p>Calculators, text tools, developer tools, image tools, converters, generators and PDF tools. Browse <a href="/categories">categories</a> or the full <a href="/tools">tool list</a>.</p></details></div></section>
+</div>
+<section class="section"><div class="container" style="text-align:center;max-width:640px;margin-left:auto;margin-right:auto">
+<h2>Need a Website or Mobile App?</h2>
+<p class="sub" style="margin-bottom:1.25rem">Have an idea or need a custom website or mobile app for your business? Let's build it together.</p>
+<a class="btn" href="https://wa.me/9779707136887" target="_blank" rel="noopener">💬 WhatsApp Me</a>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container"><div class="foot">
+<div><a class="logo" href="/" style="color:var(--text)"><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="8" fill="var(--primary)"/><path d="M8 13h16v10a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2z" fill="var(--on-primary)"/><path d="M12 13v-2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" fill="none" stroke="var(--on-primary)" stroke-width="2"/><rect x="14" y="17" width="4" height="3" rx="1" fill="var(--primary)"/></svg><span>ToolBoxy</span></a><p><strong>Free Online Tools for Everyone</strong><br>Simple tools. Fast results. No unnecessary complexity.</p></div>
+<div><h2>Categories</h2><ul><li><a href="/tools?category=Calculators">Calculators</a></li><li><a href="/tools?category=Text%20Tools">Text Tools</a></li><li><a href="/tools?category=Image%20Tools">Image Tools</a></li><li><a href="/tools?category=Developer%20Tools">Developer Tools</a></li><li><a href="/tools?category=Converters">Converters</a></li><li><a href="/tools?category=Generators">Generators</a></li><li><a href="/tools?category=PDF%20Tools">PDF Tools</a></li></ul></div>
+<div><h2>ToolBoxy</h2><ul><li><a href="/tools">All Tools</a></li><li><a href="/popular">Popular Tools</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><li><a href="/privacy">Privacy Policy</a></li><li><a href="/cookie-policy">Cookie Policy</a></li><li><a href="/terms">Terms of Service</a></li><li><a href="#" id="tb-cookie-settings" data-cookie-settings="1">Cookie Settings</a></li></ul></div>
+</div><p>© 2026 ToolBoxy. All rights reserved.</p></div></footer>
+<script src="js/registry.js" defer></script>
+<script src="js/utils.js" defer></script>
+<script src="js/theme.js" defer></script>
+<script src="js/search.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/consent.js" defer></script>
+<script src="js/ads.js" defer></script>
+
+<script src="js/speed-insights.js" defer></script>
+</body>
+</html>
