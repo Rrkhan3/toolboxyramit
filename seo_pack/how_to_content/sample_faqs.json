@@ -1,0 +1,72 @@
+{
+  "image_compressor": [
+    {
+      "question": "Can you compress images without losing quality?",
+      "answer": "Yes. Lossless compression keeps every pixel identical (usually 10-30% smaller). Lossy compression at quality 75-85 looks virtually identical to the human eye while reducing file size by 50-80%."
+    },
+    {
+      "question": "What is the best quality setting for web images?",
+      "answer": "For photographs use quality 75-85 (80 is the sweet spot). For logos and graphics with few colors use lossless compression."
+    },
+    {
+      "question": "Is the ToolBoxy Image Compressor free?",
+      "answer": "Yes, completely free. No signup, no limits, no watermark."
+    },
+    {
+      "question": "Are my images uploaded to your servers?",
+      "answer": "No. ToolBoxy is designed so supported image tools process data in your browser. Your files stay on your device."
+    },
+    {
+      "question": "Does compressing images improve SEO?",
+      "answer": "Yes. Smaller images load faster, which improves Largest Contentful Paint (LCP) — one of Google’s Core Web Vitals ranking factors."
+    }
+  ],
+  "emi_calculator": [
+    {
+      "question": "How is EMI calculated?",
+      "answer": "EMI = [P × R × (1+R)^N] / [(1+R)^N – 1] where P is principal, R is monthly interest rate, and N is number of months."
+    },
+    {
+      "question": "Is this EMI calculator accurate for Nepal banks?",
+      "answer": "Yes. It uses the standard reducing-balance method used by commercial banks in Nepal."
+    },
+    {
+      "question": "Can I calculate home loan, car loan and personal loan EMI?",
+      "answer": "Yes. Enter any loan amount, interest rate and tenure to get monthly EMI, total interest and total repayment."
+    }
+  ],
+  "json_formatter": [
+    {
+      "question": "Is the JSON formatter free?",
+      "answer": "Yes, completely free with no signup required."
+    },
+    {
+      "question": "Does it validate JSON as well?",
+      "answer": "Yes. It formats (beautifies) and checks if the JSON is valid."
+    },
+    {
+      "question": "Is my data private?",
+      "answer": "Yes. Formatting happens in your browser. Nothing is sent to our servers."
+    }
+  ],
+  "word_counter": [
+    {
+      "question": "Does the word counter count characters too?",
+      "answer": "Yes. It shows words, characters (with and without spaces), sentences, paragraphs and reading time."
+    },
+    {
+      "question": "Is there a limit on text length?",
+      "answer": "No practical limit. It works with long documents."
+    }
+  ],
+  "qr_generator": [
+    {
+      "question": "Can I create QR codes for free?",
+      "answer": "Yes. Unlimited free QR codes for text, URLs, contacts and more."
+    },
+    {
+      "question": "Do the QR codes expire?",
+      "answer": "No. Once generated and downloaded, they work forever."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+@media(min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:2fr 1fr 1fr auto;align-items:end}.foot{grid-template-columns:2fr 1fr 1fr}}
+@media(min-width:768px){.nav{display:flex;position:static;flex-direction:row;border:0;padding:0;gap:.25rem}#menu-btn{display:none}.hero{padding:4.5rem 0 3rem}}
+@media(min-width:1024px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:360px){.logo{font-size:1.05rem;margin-right:.25rem}.icon-btn{width:40px}}
