@@ -1,0 +1,14 @@
+{
+  "name": "ToolBoxy — Free Online Tools",
+  "short_name": "ToolBoxy",
+  "description": "Free online tools for everyday tasks: calculators, text, images, PDF, converters and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "lang": "en",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" },
+    { "src": "/assets/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
