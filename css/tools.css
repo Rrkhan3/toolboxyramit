@@ -78,7 +78,7 @@ textarea.code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;f
   min-height: 120px;
 }
 /* Stable ad / status slots if present */
-.ad-slot, [data-ad-slot], .smartlink-slot{
+.ad-slot, [data-ad-slot]{
   min-height: 0;
   contain: layout;
 }
